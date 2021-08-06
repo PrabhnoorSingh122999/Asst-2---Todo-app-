@@ -1,0 +1,129 @@
+.main-container{
+    width:510px;
+    height:270px;
+    /* border: 2px solid grey; */
+    border: 2px solid white;
+    padding: 20px ;
+    margin-top: 170px;
+    margin-left: 210px;
+    margin-bottom: 300px;
+    padding-left: 5%;
+}    
+
+.price_card_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-card{
+    width: 140px;
+    height: 224px;
+    border: 1px solid red;
+    box-shadow: 3px 3px 9px gray;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* .edited-line{
+    border-top: 1px solid black;
+    margin: 0 auto;
+    width: 50%;
+    text-align: end;
+    
+} */
+
+.edited-line  /* hr */
+{
+    width: 80%;
+    text-align: right;
+    margin-left: 27px;
+    margin-right: 0%;
+    margin-top: -15px;
+    background-color: rgba(128, 128, 128, 0.712);
+    border-width: 0.5px;   
+    
+}
+
+#pending-task {
+    margin-left: 0px;
+}
+        
+.h4{
+color: red;
+font-family: 'Tajawal', sans-serif;
+font-weight: light;
+font-size: 19px;
+padding-top: 0px;
+    margin-top: 13px;
+}
+
+/* del{
+    color: red;
+} */
+.Compl-task{
+    color: red;
+    font-size: 15px;
+}
+
+.p-task{
+    color: red;
+    font-size: 14px;
+}
+
+.Checkbox{
+    margin-left: -30px;
+    margin-top: 4px;
+    padding-left: 0px;
+    font-size: 14px;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tasks{
+    text-align: left;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+#lists{
+    text-align: left;
+    font-size: 49px;
+    color: gray;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: lighter;
+}
+.fa-color{
+    color: #df0303;
+}
+.fa-2x{
+    font-size: 3em;
+}
+
+#add_list{
+    text-align: right;
+    /* margin-right: 0px; */
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: gray;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    padding-left: 16px;
+    
+}
+
+#icon{
+    position: relative;
+    text-align: right;
+    font-size: 10px;
+    margin-right: 11px;
+    padding-top: 17px;
+    
+}
+

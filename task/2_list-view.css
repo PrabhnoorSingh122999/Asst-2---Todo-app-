@@ -1,0 +1,172 @@
+body{
+    position: relative;
+    margin: 1px;
+}
+.parent
+{
+    width: 252px;
+    height: 361px;
+    border: 2px solid rgb(11, 7, 51);
+    border: 2px solid #ffffff;
+    margin: 0 auto;
+    padding: 5px;
+    justify-content: space-between;
+}
+.left-line-container{
+    width: 148px;
+    padding-right: 0px;
+}
+.st-line-left{
+    border: 0.5px solid gray;
+    /* margin-top: 0.5em; */
+    margin-top: 27px;
+    margin-right: 13px;
+}
+.right-line-container{
+    width: 148px;
+    padding-right: 0px;
+    margin-left: 1px;
+}
+.st-line-right{
+    border: 0.5px solid gray;
+    /* margin-top: 0.5em; */
+    margin-top: 27px;
+    margin-left: 18px;
+}
+
+.section-1
+{
+    width: 34%;
+    height: 12%;
+    border: 2px solid rgb(11, 7, 51);
+    border: 2px solid #ffffff;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    /* justify-content: ; */
+}
+
+
+
+.paris{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 11px;
+}
+.section-2
+{
+    width: 60%;
+    height: 15%;
+    border: 2px solid rgb(11, 7, 51);
+    border: 2px solid #ffffff;
+    margin: 0 auto;
+    
+    text-align: center;
+    display: flex;
+}
+
+#arrow-circle-left{
+    margin-left: 40px;
+    margin-top: 13px;
+}
+
+
+#back {
+    margin-left: 4px;
+    margin-top: 10px;
+    color: gray;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* .section-3{
+    position: relative;
+} */
+.price-card{
+    position: relative;
+    width: 195px;
+    height: 200px;
+    border: 1px solid #ff3131;
+    box-shadow: 3px 3px 9px gray;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.edited-line /* hr */ 
+{
+    width: 144px;
+    text-align: right;
+    margin-left: 50px;
+    margin-right: 0%;
+    margin-top: -15px;
+    background-color: rgba(128, 128, 128, 0.712);
+    border-width: 0.5px;
+    /* margin-left: 1px; */
+}
+
+.h4 {
+    color: red;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 0px;
+    margin-top: 13px;
+    padding-right: 17px;
+}
+
+.Compl-task {
+    color: #d64141;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+/* .p-task{
+    color: red;
+    font-size: 14px;
+} */
+
+.Checkbox{
+    margin-left: -8px;
+    margin-top: 4px;
+    padding-left: 0px;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 6px;
+    padding-left: 0px;
+
+}
+
+#checkBtask{
+    margin-top: 5px;
+    margin-right: 2px;
+}
+.Ptask {
+    margin-left: 2px;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+
+/* .plus-circle-icon{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+} */
+
+.plus-circle-icon {
+    position: absolute;
+    bottom: 2px;
+    right: 3px;
+}
